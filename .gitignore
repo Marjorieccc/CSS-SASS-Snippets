@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+
+# design
+**/design
+**/preview.jpg
+**/style-guide.md
+
+# misc
+**/README-template.md
+
