@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" role="site">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,76 +11,14 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      body {
-        background-color: hsl(212, 45%, 89%);
-        font-family: 'Outfit', sans-serif;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-      }
-      .cards {
-        margin-top: auto;
-        margin-bottom: auto;
-      }
-      .card {
-        width: 320px;
-        background-color: hsl(0, 0%, 100%);
-        padding: 16px 16px 40px;
-        box-sizing: border-box;
-        border-radius: 20px;
-        box-shadow: 0px 25px 25px rgb(0 0 0/4.77%);
-      }
-      .card img {
-        width: 288px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-      }
-      .card .card-content {
-        margin: 0 16px;
-        margin-block-start: 0;
-        text-align: center;
-        overflow-wrap: break-word;
-      }
-      .card .card-header {
-        margin: 0;
-        color: hsl(218, 44%, 22%);
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 120%;
-      }
-      .card .card-description {
-        margin: 16px 0 0 0;
-        color: hsl(216, 15%, 48%);
-        font-size: 15px;
-        font-weight: 400;
-        letter-spacing: 0.2px;
-        line-height: 140%;
-      }
-
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <div class="cards">
-      <div class="card">
-        <img src="./images/image-qr-code.png" alt="QR-code" />
+    <main class="cards" role="main">
+      <div class="card" role="card">
+        <img src="./images/image-qr-code.png" alt="QR-code image" />
         <div class="card-content">
           <h3 class="card-header">
             Improve your front-end skills by building projects
@@ -90,10 +28,10 @@
             skills to the next level
           </p>
         </div>
-      </div>
+      </main>
     </div>
 
-    <div class="attribution">
+    <footer class="attribution" role="footer">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
@@ -101,6 +39,6 @@
       <a href="https://github.com/Marjorieccc/" target="_blank"
         >Marjorie Cheung</a
       >.
-    </div>
+    </footer>
   </body>
 </html>
