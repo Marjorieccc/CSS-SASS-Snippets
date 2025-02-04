@@ -1,0 +1,40 @@
+/* Text preset */
+:root {
+  --caption: 800 1.5rem/1.5 'Figtree', sans-serif;
+  --body-lg: 500 1rem/1.5 'Figtree', sans-serif;
+  --body-sm: 500 0.875rem/1.5 'Figtree', sans-serif;
+  --body-sm-bold: 800 0.875rem/1.5 'Figtree', sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+  :root {
+    --caption: 800 1.25rem/1.5 'Figtree', sans-serif;
+    --body-lg: 500 0.875rem/1.5 'Figtree', sans-serif;
+    --body-sm: 500 0.75rem/1.5 'Figtree', sans-serif;
+    --body-sm-bold: 800 0.75rem/1.5 'Figtree', sans-serif;
+  }
+}
+
+/* Font Setup */
+/* Medium */
+@font-face {
+  font-family: 'Figtree';
+  src: url('../assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+  font-style: normal;
+}
+
+/* Extra Bold */
+@font-face {
+  font-family: 'Figtree';
+  src: url('../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'Figtree';
+  src: url('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf')
+    format('truetype');
+  font-style: italic;
+}
