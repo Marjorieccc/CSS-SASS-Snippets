@@ -99,7 +99,7 @@ body {
 }
 
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
   margin: 1rem;
 }
