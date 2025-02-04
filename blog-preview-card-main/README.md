@@ -14,7 +14,7 @@ Mobile version:
 
 ### Links
 
-- Live Site URL: [click here]()
+- Live Site URL: [click here](https://blog-preview-card-nine-mu.vercel.app/)
 
 ### How to Use
 
@@ -26,5 +26,6 @@ Adjust the window size to see the responsive behavior in action.
 
 ### Acknowledge
 
-Developed by Marjorie Cheung
-This is a solution to the [Design preview for the QR code component coding challenge]().
+Developed by Marjorie Cheung.
+
+This is a solution to the [Blog Preview Card](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-local-font-qrhmHfWtfs) under [Frontend Mentor](https://www.frontendmentor.io/).
