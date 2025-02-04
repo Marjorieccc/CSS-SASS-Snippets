@@ -41,7 +41,7 @@ body {
   text-align: center;
   overflow-wrap: break-word;
 }
-.card .card-header {
+.card .card-title {
   margin: 0;
   color: var(--black);
   font-size: 22px;

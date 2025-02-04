@@ -2,10 +2,13 @@
 /node_modules
 
 # design
+**/figma
 **/design
 **/preview.jpg
 **/style-guide.md
+**/*.fig
 
 # misc
 **/README-template.md
+**/preview.jpg
 
