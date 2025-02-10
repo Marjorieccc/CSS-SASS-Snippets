@@ -4,6 +4,10 @@
 
 A responsive **Social Links Profile** card built using **HTML & CSS**. This project demonstrates a clean and modern profile design that adapts smoothly to various screen sizes—from desktops to mobile devices. The design emphasizes a circular profile photo, engaging typography, and interactive social media buttons. It leverages CSS custom properties and functions (such as `clamp()`) for responsive scaling and consistency.
 
+### Demo Links
+
+- Live Site URL: [click here](https://social-links-profile-pied-chi.vercel.app/)
+
 ### Screenshot
 
 **Desktop version:**
@@ -13,10 +17,6 @@ A responsive **Social Links Profile** card built using **HTML & CSS**. This proj
 **Mobile version:**
 
 <img src="./screenshots/mobile-screenshot.jpg" alt="Mobile screenshot of Social Links Profile" />
-
-### Links
-
-- Live Site URL: [click here](https://social-links-profile-pied-chi.vercel.app/)
 
 ## Features
 
