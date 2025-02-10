@@ -1,0 +1,12 @@
+:root {
+  --heading: 600 clamp(1.25rem, 5vw, 1.5rem) / 1.5 'Inter', sans-serif;
+  --subheading: 600 clamp(0.75rem, 2.5vw, 0.875rem) / 1.5 'Inter', sans-serif;
+  --body-text: 400 clamp(0.75rem, 2vw, 0.875rem) / 1.5 'Inter', sans-serif;
+  --body-text-sm: clamp(0.6rem, 2vw, 0.87rem) 'Inter', sans-serif;
+  --caption-text: 700 clamp(0.75rem, 2vw, 0.875rem) / 1.5 'Inter', sans-serif;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: var(--grey-900);
+}
+
+.profile-card {
+  width: clamp(17.5rem, 87.5vw, 23.75rem);
+  padding: clamp(1.5rem, 6.4vw, 2.5rem);
+  background-color: var(--grey-800);
+  border-radius: 0.625rem;
+  text-align: center;
+}
+
+.profile-photo {
+  display: block;
+  width: 5.5rem;
+  margin: 0 auto 1.5rem auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-name {
+  margin-bottom: 0.25rem;
+  font: var(--heading);
+  color: var(--white);
+}
+
+.profile-location {
+  margin-bottom: 1.5rem;
+  font: var(--subheading);
+  color: var(--green);
+}
+
+.profile-bio {
+  margin-bottom: 1.5rem;
+  font: var(--body-text);
+  color: var(--white);
+}
+
+.social-links {
+  list-style-type: none;
+}
+
+.social-link-button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: var(--grey-700);
+  font: var(--caption-text);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.social-link-button:hover {
+  background-color: var(--green);
+  color: var(--grey-800);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+
+  font: var(--body-text-sm);
+  color: var(--white);
+  text-align: center;
+}
+footer a {
+  color: var(--green);
+}
